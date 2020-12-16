@@ -1,13 +1,13 @@
 {
   "main.css": "/text-to-speech/static/css/main.6e750dc2.chunk.css",
-  "main.js": "/text-to-speech/static/js/main.72af45d6.chunk.js",
-  "main.js.map": "/text-to-speech/static/js/main.72af45d6.chunk.js.map",
+  "main.js": "/text-to-speech/static/js/main.1ec88d24.chunk.js",
+  "main.js.map": "/text-to-speech/static/js/main.1ec88d24.chunk.js.map",
   "runtime~main.js": "/text-to-speech/static/js/runtime~main.c832fb67.js",
   "runtime~main.js.map": "/text-to-speech/static/js/runtime~main.c832fb67.js.map",
-  "static/js/2.e5a89610.chunk.js": "/text-to-speech/static/js/2.e5a89610.chunk.js",
-  "static/js/2.e5a89610.chunk.js.map": "/text-to-speech/static/js/2.e5a89610.chunk.js.map",
+  "static/js/2.c77c38b2.chunk.js": "/text-to-speech/static/js/2.c77c38b2.chunk.js",
+  "static/js/2.c77c38b2.chunk.js.map": "/text-to-speech/static/js/2.c77c38b2.chunk.js.map",
   "index.html": "/text-to-speech/index.html",
-  "precache-manifest.cfae436c1c342a51b29e90a2c357f7fc.js": "/text-to-speech/precache-manifest.cfae436c1c342a51b29e90a2c357f7fc.js",
+  "precache-manifest.f4d48fbad5185666775413764fdc08e5.js": "/text-to-speech/precache-manifest.f4d48fbad5185666775413764fdc08e5.js",
   "service-worker.js": "/text-to-speech/service-worker.js",
   "static/css/main.6e750dc2.chunk.css.map": "/text-to-speech/static/css/main.6e750dc2.chunk.css.map"
 }
