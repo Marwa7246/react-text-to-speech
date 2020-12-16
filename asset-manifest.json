@@ -1,13 +1,13 @@
 {
-  "main.css": "/text-to-speach/static/css/main.6e750dc2.chunk.css",
-  "main.js": "/text-to-speach/static/js/main.c7bead93.chunk.js",
-  "main.js.map": "/text-to-speach/static/js/main.c7bead93.chunk.js.map",
-  "runtime~main.js": "/text-to-speach/static/js/runtime~main.ce700430.js",
-  "runtime~main.js.map": "/text-to-speach/static/js/runtime~main.ce700430.js.map",
-  "static/js/2.7a03d107.chunk.js": "/text-to-speach/static/js/2.7a03d107.chunk.js",
-  "static/js/2.7a03d107.chunk.js.map": "/text-to-speach/static/js/2.7a03d107.chunk.js.map",
-  "index.html": "/text-to-speach/index.html",
-  "precache-manifest.f79f9f8b3a58573ee788fc4d354603dd.js": "/text-to-speach/precache-manifest.f79f9f8b3a58573ee788fc4d354603dd.js",
-  "service-worker.js": "/text-to-speach/service-worker.js",
-  "static/css/main.6e750dc2.chunk.css.map": "/text-to-speach/static/css/main.6e750dc2.chunk.css.map"
+  "main.css": "/text-to-speech/static/css/main.6e750dc2.chunk.css",
+  "main.js": "/text-to-speech/static/js/main.72af45d6.chunk.js",
+  "main.js.map": "/text-to-speech/static/js/main.72af45d6.chunk.js.map",
+  "runtime~main.js": "/text-to-speech/static/js/runtime~main.c832fb67.js",
+  "runtime~main.js.map": "/text-to-speech/static/js/runtime~main.c832fb67.js.map",
+  "static/js/2.e5a89610.chunk.js": "/text-to-speech/static/js/2.e5a89610.chunk.js",
+  "static/js/2.e5a89610.chunk.js.map": "/text-to-speech/static/js/2.e5a89610.chunk.js.map",
+  "index.html": "/text-to-speech/index.html",
+  "precache-manifest.cfae436c1c342a51b29e90a2c357f7fc.js": "/text-to-speech/precache-manifest.cfae436c1c342a51b29e90a2c357f7fc.js",
+  "service-worker.js": "/text-to-speech/service-worker.js",
+  "static/css/main.6e750dc2.chunk.css.map": "/text-to-speech/static/css/main.6e750dc2.chunk.css.map"
 }
