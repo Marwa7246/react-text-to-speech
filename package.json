@@ -1,6 +1,6 @@
 {
-  "homepage": "https://marwa7246.github.io/text-to-speach/",
-  "name": "text-to-speach",
+  "homepage": "https://marwa7246.github.io/text-to-speech/",
+  "name": "text-to-speech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
