@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-import styled from 'styled-components';
-
 import SpeechSpeedSetter from './SpeechSpeedSetter';
 import LanguageSelect from './LanguageSelect';
 import TextToSpeech from './TextToSpeech';
@@ -10,23 +8,30 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 
 import { DEFAULTS } from './appEnums';
+import './index.css';
 
-const apiKey = '332c16d1a8db4a10b44047fd0888b485';
+const apiKey = process.env.REACT_APP_API_KEY;
 
-const App = ({className}) => {
+function App () {
   const [language, setLanguage] = useState(DEFAULTS.LANGUAGES);
   const [speed, setSpeed] = useState(DEFAULTS.SPEED);
   const [text, setText] = useState(DEFAULTS.TEXT);
   const [speech, setSpeech] = useState(DEFAULTS.SPEECH);
 
   const handleClick = () => {
+
     const audioSrc = `http://api.voicerss.org/?key=${apiKey}&hl=${language}&src=${text}&r=${speed}`
+
 
     setSpeech(audioSrc);
   };
 
-  return (
-    <div className={className}>
+  return (    
+    <div>      
+  
+  <h1 className='app-header'>Application for text to speech transformation</h1>
+
+    <div className='app'>
       <Grid container spacing={16}>
         <Grid item xs={6}>
           <LanguageSelect value={language} setValue={setLanguage} />
@@ -47,17 +52,18 @@ const App = ({className}) => {
           </Button>
         </Grid>
         <Grid item xs={12} >
-          { speech && <audio autoPlay src={speech}></audio> }
+          <audio autoPlay src={speech}></audio> 
         </Grid>
       </Grid>
+    </div>
     </div>
   );
 }
 
-const StyledApp = styled(App)`
-  max-width: 640px;
-  margin: 0 auto;
-  padding-top: 40px;
-`
+// const StyledApp = styled(App)`
+//   max-width: 640px;
+//   margin: 0 auto;
+//   padding-top: 40px;
+// `
 
-export default StyledApp;
+export default App;
