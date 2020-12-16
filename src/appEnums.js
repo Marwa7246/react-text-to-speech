@@ -4,17 +4,14 @@ export const LANGUAGES = [
     NAME: 'English (United States)'
   },
   {
-    CODE: 'de-de',
-    NAME: 'German'
+    CODE: 'fr-fr',
+    NAME: 'French (France)'
   },
   {
-    CODE: 'ja-jp',
-    NAME: 'Japanese'
+    CODE: 'fr-ca',
+    NAME: 'French(Canada)'
   },
-  {
-    CODE: 'ru-ru',
-    NAME: 'Russian'
-  }
+
 ];
 
 export const DEFAULTS = {
