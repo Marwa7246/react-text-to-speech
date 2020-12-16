@@ -20,10 +20,11 @@ function App () {
 
   const handleClick = () => {
 
-    const audioSrc = `http://api.voicerss.org/?key=${apiKey}&hl=${language}&src=${text}&r=${speed}`
+    const audioSrc = `https://api.voicerss.org/?key=${apiKey}&hl=${language}&src=${text}&r=${speed}`
 
 
     setSpeech(audioSrc);
+    console.log(audioSrc)
   };
 
   return (    
